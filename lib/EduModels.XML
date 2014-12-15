@@ -1,0 +1,1373 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EduModels</name>
+    </assembly>
+    <members>
+        <member name="T:EduModels.Base.About.EduAbout">
+            <summary>
+            关于实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.About.EduAbout.EduAbout_ID">
+            <summary>
+            关于id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.About.EduAbout.EduAbout_Content">
+            <summary>
+            关于内容
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.About.EduAbout.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.About.EduActivities">
+            <summary>
+            活动实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.About.EduActivities.EduActiv_ID">
+            <summary>
+            活动id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.About.EduActivities.EduActiv_Title">
+            <summary>
+            活动标题
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.About.EduActivities.EduActiv_Val">
+            <summary>
+            活动内容
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.About.EduActivities.EduActiv_Begin">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.About.EduActivities.EduActiv_End">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.About.EduActivities.EduActiv_Stat">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.About.EduActivities.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.About.Eduagreement">
+            <summary>
+            服务协议 未实现
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.About.EduContent">
+            <summary>
+            联系我们实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.About.EduContent.EduContent_ID">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.About.EduContent.EduContent_Con">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.About.EduContent.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.About.EduGuide">
+            <summary>
+            帮助实体 未实现
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.Bank">
+            <summary>
+            银行实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.Bank.Bank_ID">
+            <summary>
+            银行编号
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.Bank.Bank_Name">
+            <summary>
+            银行名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.Bank.Spell_Code">
+            <summary>
+            拼音码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.Bank.Wb_Code">
+            <summary>
+            五笔码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.Bank.User_Code">
+            <summary>
+            自定义码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.Bank.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.Bank.Sort_Id">
+            <summary>
+            顺序号
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.Certinfo">
+            <summary>
+            认证信息实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.Certinfo.CertValue">
+            <summary>
+            认证内容
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.Certinfo.CerStat">
+            <summary>
+            认证状态0、未审核1、已审核
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.Certinfo.CertId">
+            <summary>
+            类别id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.Certinfo.Images">
+            <summary>
+            认证图片
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.Certinfo.CerType">
+            <summary>
+            认证类别
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.Certinfo.OperEdu">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.CerType">
+            <summary>
+            认证类别实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.CerType.CerType_Id">
+            <summary>
+            类别id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.CerType.CerType_Name">
+            <summary>
+            类别名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.CerType.Spell_Code">
+            <summary>
+            拼音码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.CerType.Wb_Code">
+            <summary>
+            五笔码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.CerType.User_Code">
+            <summary>
+            自定义码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.CerType.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.CerType.Sort_Id">
+            <summary>
+            顺序号
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduAcount">
+            <summary>
+            用户实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAcount.User_ID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAcount.User_Phone">
+            <summary>
+            用户手机号
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAcount.User_Mail">
+            <summary>
+            用户邮箱
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAcount.User_Pwd">
+            <summary>
+            用户密码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAcount.User_QQ">
+            <summary>
+            用户qq
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAcount.Operdate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduAcountinfo">
+            <summary>
+            用户扩展信息
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAcountinfo.User_Name">
+            <summary>
+            用户姓名
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAcountinfo.User_Nick">
+            <summary>
+            用户昵称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAcountinfo.User_Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAcountinfo.User_Birthday">
+            <summary>
+            生日
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAcountinfo.User_Introduction">
+            <summary>
+            简介
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAcountinfo.Addressinfo">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAcountinfo.User_Details">
+            <summary>
+            用户详情
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAcountinfo.User_Image">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduComment">
+            <summary>
+            评论实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduComment.EduComment_ComID">
+            <summary>
+            所评论id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduComment.EduComment_ID">
+            <summary>
+            评论id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduComment.EduComment_ReplyID">
+            <summary>
+            上级id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduComment.EduComment_Value">
+            <summary>
+            评论内容
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduComment.EduComment_Type">
+            <summary>
+            评论类别
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduComment.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduComment_Type">
+            <summary>
+            评论类别实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduComment_Type.EduComment_TypeID">
+            <summary>
+            评论类别id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduComment_Type.EduComment_TypeName">
+            <summary>
+            评论类别名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduComment_Type.Spell_Code">
+            <summary>
+            拼音码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduComment_Type.Wb_Code">
+            <summary>
+            五笔码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduComment_Type.User_Code">
+            <summary>
+            自定义码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduComment_Type.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduComment_Type.Sort_Id">
+            <summary>
+            顺序号
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduDiscount">
+            <summary>
+            课时优惠包实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduDiscount.EduDiscount_ID">
+            <summary>
+            优惠包id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduDiscount.EduDiscount_Name">
+             <summary>
+            优惠包名称 
+             </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduDiscount.Spell_Code">
+            <summary>
+            拼音码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduDiscount.Wb_Code">
+            <summary>
+            五笔码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduDiscount.User_Code">
+            <summary>
+            自定义码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduDiscount.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduDiscount.Sort_Id">
+            <summary>
+            顺序号
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduDiscountinfo">
+            <summary>
+            优惠信息
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduDiscountinfo.EduDiscountInfoId">
+            <summary>
+            优惠id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduDiscountinfo.EduDiscount">
+            <summary>
+            优惠内容
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduDiscountinfo.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduEducation">
+            <summary>
+            学历实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduEducation.EduEdcation_ID">
+            <summary>
+            学历id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduEducation.EduScnature">
+            <summary>
+            学历类别
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduEducation.EduSchool">
+            <summary>
+            学校实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduEducation.EduBegintime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduEducation.EduEndtime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduEducation.EduProfessional">
+            <summary>
+            专业
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduInterest">
+            <summary>
+            兴趣实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduInterest.EduInterest_ID">
+            <summary>
+            兴趣id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduInterest.EduInterest_Name">
+            <summary>
+            兴趣名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduInterest.Spell_Code">
+            <summary>
+            拼音码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduInterest.Wb_Code">
+            <summary>
+            五笔码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduInterest.User_Code">
+            <summary>
+            自定义码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduInterest.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduInterest.Sort_Id">
+            <summary>
+            顺序号
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduMess">
+            <summary>
+            消息实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduMess.EduMess_ID">
+            <summary>
+            消息id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduMess.EduMess_Value">
+            <summary>
+            消息内容
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduMess.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduMess.EduMess_Stat">
+            <summary>
+            消息状态
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduMess.SendOper">
+            <summary>
+            发起消息人
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduOrder">
+            <summary>
+            订单实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduOrder.EduOrder_ID">
+            <summary>
+            订单id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduOrder.EduSubJects">
+            <summary>
+            订单课程
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduOrder.EduTeachTime">
+            <summary>
+            订单授课时间
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduOrder.StuOper">
+            <summary>
+            学生
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduOrder.TeachOper">
+            <summary>
+            老师
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduOrder.Class_Type">
+            <summary>
+            授课方式
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduOrder.Stat">
+            <summary>
+            订单状态0下订单，1、确认订单2、待支付3、支付完成4、授课完成5、评价完成
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduOrder.Paydate">
+            <summary>
+            支付时间
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduOrder.OrderTime">
+            <summary>
+            订单时间
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduOrder.PayMode">
+            <summary>
+            支付方式
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduSubjects">
+            <summary>
+            课程实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjects.EduSubJect_ID">
+            <summary>
+            课程id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjects.EduSbujectType1">
+            <summary>
+            课目一级分类
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjects.EduSbujectType2">
+            <summary>
+            课目二级分类
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjects.EduSbujectType3">
+            <summary>
+            课目三级分类
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjects.EduSubJect_Value">
+            <summary>
+            自定义课目
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjects.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjects.ComePrice">
+            <summary>
+            老师上门价格
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjects.UpPrice">
+            <summary>
+            学生上门价格
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjects.NegotiationPrice">
+            <summary>
+            协商地点价格
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjects.OnlinPrice">
+            <summary>
+            线上价格
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduSubjectType">
+            <summary>
+            课程课目类别实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjectType.EduSubJects_ID">
+            <summary>
+            课目id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjectType.EduSubJects_Value">
+            <summary>
+            课目名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjectType.Spell_Code">
+            <summary>
+            拼音码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjectType.Wb_Code">
+            <summary>
+            五笔码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjectType.User_Code">
+            <summary>
+            自定义码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjectType.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjectType.Sort_Id">
+            <summary>
+            顺序号
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSubjectType.EduHot">
+            <summary>
+            热门标志
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduAlbum">
+            <summary>
+            相册实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAlbum.EduAlbim_ID">
+            <summary>
+            相册id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAlbum.EduAlbim_Name">
+            <summary>
+            相册名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAlbum.EduAlbim_Description">
+            <summary>
+            相册描述
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAlbum.EduAlbim_Image">
+            <summary>
+            相册图片集合
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAlbum.ImageCount">
+            <summary>
+            图片总数
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduAlbum.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduBackGround">
+            <summary>
+            教育背景实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduBackGround.EduBg_sczd">
+            <summary>
+            自定义学校名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduBackGround.EduBg_ID">
+            <summary>
+            教育背景id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduBackGround.EduBg_Age">
+            <summary>
+            教龄
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduBackGround.EduBg_Sc">
+            <summary>
+            机构/学校/单位
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduBackGround.EduBg_Char">
+            <summary>
+            教学特点
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduBackGround.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduBackGround.EduBg_SrDT">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduBackGround.EduBg_StDT">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduScNature">
+            <summary>
+            学校类别
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduScNature.EduNatId">
+            <summary>
+            性质id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduScNature.EduNatName">
+            <summary>
+            类别名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduScNature.Spell_Code">
+            <summary>
+            拼音码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduScNature.Wb_Code">
+            <summary>
+            五笔码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduScNature.User_Code">
+            <summary>
+            自定义码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduScNature.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduScNature.Sort_Id">
+            <summary>
+            顺序号
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduSchool">
+            <summary>
+            学校实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSchool.EduScNature">
+            <summary>
+            性质1--211,985
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSchool.EduScType">
+            <summary>
+            性质--教育机构，民办
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSchool.EduSchool_ID">
+            <summary>
+            学校id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSchool.EduSchool_Name">
+            <summary>
+            学校名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSchool.EduScAddr">
+            <summary>
+            学校地址
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSchool.Spell_Code">
+            <summary>
+            拼音码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSchool.Wb_Code">
+            <summary>
+            五笔码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSchool.User_Code">
+            <summary>
+            自定义码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSchool.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSchool.Sort_Id">
+            <summary>
+            顺序号
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduSharing">
+            <summary>
+            成果分享实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSharing.EduShar_ID">
+            <summary>
+            成果分享id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSharing.EduShar_Titl">
+            <summary>
+            成果分享名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSharing.EduShar_DT">
+            <summary>
+            日期
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSharing.EduShar_Val">
+            <summary>
+            成果描述
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduSharing.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduTeaching">
+            <summary>
+            支教信息
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduTeaching.EduTeaching_ID">
+            <summary>
+            支教id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduTeaching.EduTeaching_Value">
+            <summary>
+            支教内容
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduTeaching.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduTeaching.EduTeachBegin">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduTeaching.EduTeachEnd">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduTeaChTime">
+            <summary>
+            授课时间实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduTeaChTime.EduTeachTime_ID">
+            <summary>
+            授课时间id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduTeaChTime.EduTeachTime_WeekID">
+            <summary>
+            授课星期
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduTeaChTime.EduTeachTime_Datetime">
+            <summary>
+            授课时间
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduTeaChTime.EduTeachTime_NoodID">
+            <summary>
+            授课午别id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduTeaChTime.EduTeachTime_NoodV">
+            <summary>
+            授课午别名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduTeaChTime.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduVideo">
+            <summary>
+            视频实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduVideo.EduVideo_Id">
+            <summary>
+            视频id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduVideo.EduVideo_Title">
+            <summary>
+            视频标题
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduVideo.EduVideo_Description">
+            <summary>
+            视频描述
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduVideo.EduVideoType">
+            <summary>
+            视频类型
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduVideo.EduVideo_Url">
+            <summary>
+            视频地址
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduVideo.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduVideoType">
+            <summary>
+            视频分类
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduVideoType.EduVideoType_ID">
+            <summary>
+            类别id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduVideoType.EduVideoType_Vl">
+            <summary>
+            类别名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduVideoType.Spell_Code">
+            <summary>
+            拼音码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduVideoType.Wb_Code">
+            <summary>
+            五笔码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduVideoType.User_Code">
+            <summary>
+            自定义码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduVideoType.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduVideoType.Sort_Id">
+            <summary>
+            顺序号
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Acount.EduWorkBackG">
+            <summary>
+            工作背景
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduWorkBackG.EduWorkBackg_ID">
+            <summary>
+            工作背景id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduWorkBackG.EduWorkBackg_Entername">
+            <summary>
+            工作单位名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduWorkBackG.EduWorkBackg_Position">
+            <summary>
+            职位
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduWorkBackG.EduWorkBackg_Description">
+            <summary>
+            具体描述
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduWorkBackG.EduWorkBackg_Begin">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduWorkBackG.EduWorkBackg_End">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Acount.EduWorkBackG.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Address.AddressInfo">
+            <summary>
+            地址实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.AddressInfo.DetailAddr">
+            <summary>
+            具体地址
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.AddressInfo.Province">
+            <summary>
+            省
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.AddressInfo.City">
+            <summary>
+            城市
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.AddressInfo.District">
+            <summary>
+            地区
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Address.City">
+            <summary>
+            城市实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.City.City_Id">
+            <summary>
+            城市ID
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.City.City_Name">
+            <summary>
+            城市名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.City.City_Post">
+            <summary>
+            邮编
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.City.Spell_Code">
+            <summary>
+            拼音码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.City.Wb_Code">
+            <summary>
+            五笔码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.City.User_Code">
+            <summary>
+            自定义码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.City.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.City.Sort_Id">
+            <summary>
+            顺序号
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.City.Hot">
+            <summary>
+            是否热门
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Address.District">
+            <summary>
+            地区实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.District.Distr_Id">
+            <summary>
+            区域id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.District.Distr_Name">
+            <summary>
+            区域名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.District.Spell_Code">
+            <summary>
+            拼音码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.District.Wb_Code">
+            <summary>
+            五笔码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.District.User_Code">
+            <summary>
+            自定义码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.District.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.District.Sort_Id">
+            <summary>
+            顺序号
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.District.Hot">
+            <summary>
+            是否热门
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Address.Province">
+            <summary>
+            省实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.Province.ProID">
+            <summary>
+            省编码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.Province.ProName">
+            <summary>
+            省名称
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.Province.Spell_Code">
+            <summary>
+            拼音码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.Province.Wb_Code">
+            <summary>
+            五笔码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.Province.User_Code">
+            <summary>
+            自定义码
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.Province.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.Province.Sort_Id">
+            <summary>
+            顺序号
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Address.Province.Hot">
+            <summary>
+            是否热门
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Admin.AdminCount">
+            <summary>
+            EDU管理员账户实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Admin.AdminCount.EduAdmin_ID">
+            <summary>
+            账户id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Admin.AdminCount.EduAdmin_Pwd">
+            <summary>
+            账户密码
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.Images.EduImage">
+            <summary>
+            图片实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Images.EduImage.EduImages_ID">
+            <summary>
+            图片id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Images.EduImage.EduImages_Name">
+            <summary>
+            图片标题
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Images.EduImage.EduImages_Con">
+            <summary>
+            图片描述
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Images.EduImage.EduImages_Url">
+            <summary>
+            图片地址
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Images.EduImage.EduImages_Im">
+            <summary>
+            图片
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Images.EduImage.EduImages_Ims">
+            <summary>
+            缩略图
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Images.EduImage.Height">
+            <summary>
+            图片高度
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Images.EduImage.Width">
+            <summary>
+            图片宽度
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Images.EduImage.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.Images.EduImage.EduComment">
+            <summary>
+            评论集合
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.News.EduNews">
+            <summary>
+            新闻实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.News.EduNews.EduNews_ID">
+            <summary>
+            新闻id
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.News.EduNews.EduNews_Title">
+            <summary>
+            新闻标题
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.News.EduNews.EduNews_Con">
+            <summary>
+            新闻内容
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.News.EduNews.Is_Comment">
+            <summary>
+            是否允许评论
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.News.EduNews.IsOverHead">
+            <summary>
+            是否顶置
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.News.EduNews.IsHomePageDisplayset">
+            <summary>
+            是否首页展示
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.News.EduNews.EduNewsSortId">
+            <summary>
+            顺序号
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.News.EduNews.Oper">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="T:EduModels.Base.OperEdu">
+            <summary>
+            操作员实体
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.OperEdu.Operid">
+            <summary>
+            操作员ID
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.OperEdu.OperName">
+            <summary>
+            操作员姓名
+            </summary>
+        </member>
+        <member name="P:EduModels.Base.OperEdu.OperDate">
+            <summary>
+            操作时间
+            </summary>
+        </member>
+    </members>
+</doc>
