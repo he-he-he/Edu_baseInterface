@@ -1249,6 +1249,11 @@
             账户密码
             </summary>
         </member>
+        <member name="T:EduModels.Base.Dic.Base">
+            <summary>
+            字典
+            </summary>
+        </member>
         <member name="T:EduModels.Base.Images.EduImage">
             <summary>
             图片实体

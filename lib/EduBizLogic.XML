@@ -4,9 +4,230 @@
         <name>EduBizLogic</name>
     </assembly>
     <members>
+        <member name="T:EduBizLogic.Base.Acount.AcountMang">
+            <summary>
+            用户管理
+            </summary>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.AddCerType(EduModels.Base.Acount.CerType)">
+            <summary>
+            添加认证类别
+            </summary>
+            <param name="certype"></param>
+            <returns>行数</returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.DelCerType(System.String)">
+            <summary>
+            删除认证类别
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.GetCerTypeList">
+            <summary>
+            获得认证类别实体集
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.GetCerTypeByid(System.String)">
+            <summary>
+            根据code取实体
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.AddBank(EduModels.Base.Acount.Bank)">
+            <summary>
+            添加银行
+            </summary>
+            <param name="Bank"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.DelBank(System.String)">
+            <summary>
+            删除银行类别
+            </summary>
+            <param name="code">类别编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.GetBankList">
+            <summary>
+            取银行类别List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.GetBankByid(System.String)">
+            <summary>
+            根据code取银行实体
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.AddEduComment_Type(EduModels.Base.Acount.EduComment_Type)">
+            <summary>
+            添加评论类别
+            </summary>
+            <param name="EduComment_Type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.DelEduComment_Type(System.String)">
+            <summary>
+            删除评论类别
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.GetEduComment_Type">
+            <summary>
+            获取评论类别集合
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.GetEduComment_TypeByid(System.String)">
+            <summary>
+            根据code查找评论类别实体
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.AddEduDiscount(EduModels.Base.Acount.EduDiscount)">
+            <summary>
+            添加课程优惠包类别
+            </summary>
+            <param name="EduDisCount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.DelEduDiscount(System.String)">
+            <summary>
+            删除课程优惠包类别
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.GetEduDiscountList">
+            <summary>
+            获得课程优惠包类别集合
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.GetEduDiscountByid(System.String)">
+            <summary>
+            根据编码取优惠类别实体
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.AddEduInterest(EduModels.Base.Acount.EduInterest)">
+            <summary>
+            添加兴趣类别
+            </summary>
+            <param name="EduInterest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.DelEduInterest(System.String)">
+            <summary>
+            删除兴趣类别
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.GetEduInterestList">
+            <summary>
+            取兴趣类别集合
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Acount.AcountMang.GetEduInterestByid(System.String)">
+            <summary>
+            根据code取兴趣类别实体
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EduBizLogic.Base.Admin.AdminMang">
+            <summary>
+            管理员管理
+            </summary>
+        </member>
         <member name="T:EduBizLogic.Base.Dic.DictionariesMang">
             <summary>
             字典管理
+            </summary>
+        </member>
+        <member name="F:EduBizLogic.Base.Dic.DictionariesMang.QSql">
+            <summary>
+            查询sql
+            </summary>
+        </member>
+        <member name="F:EduBizLogic.Base.Dic.DictionariesMang.VSql">
+            <summary>
+            有效
+            </summary>
+        </member>
+        <member name="M:EduBizLogic.Base.Dic.DictionariesMang.QueryByType(System.String)">
+            <summary>
+            按类型获取字典
+            </summary>
+            <param name="Type">类型</param>
+            <returns>DataSet数据</returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Dic.DictionariesMang.QueryByTypeId(System.String,System.String)">
+            <summary>
+            按类型编码获取字典
+            </summary>
+            <param name="Type">类型</param>
+            <param name="Code">编码</param>
+            <returns>DataSet集合</returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Dic.DictionariesMang.Insert(EduModels.Base.Dic.Base)">
+            <summary>
+            插入字典表
+            </summary>
+            <param name="dic">字典实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Dic.DictionariesMang.UpDic(System.String,System.String,System.String)">
+            <summary>
+            根据type，code更新name
+            </summary>
+            <param name="Type">type</param>
+            <param name="Code">编码</param>
+            <param name="name">更新后名字</param>
+            <returns>更新条数</returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Dic.DictionariesMang.UpDic(System.String,System.String,System.String,System.String)">
+            <summary>
+            根据type、cocde更新upcode、upcode2
+            </summary>
+            <param name="Type">type</param>
+            <param name="Code">编码</param>
+            <param name="Up_code">upcode</param>
+            <param name="Up_code2">upcode2</param>
+            <returns>更新条数</returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Dic.DictionariesMang.DeleteDic(System.String,System.String)">
+            <summary>
+            根据type、code删除字典
+            </summary>
+            <param name="Type"></param>
+            <param name="Code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EduBizLogic.Base.Dic.DictionariesMang.GetSequenceByType(System.String)">
+            <summary>
+            根据type取序列
+            </summary>
+            <param name="Type"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EduBizLogic.Base.Images.ImageMang">
+            <summary>
+            图片管理
+            </summary>
+        </member>
+        <member name="T:EduBizLogic.Base.News.NewsMang">
+            <summary>
+            新闻管理
             </summary>
         </member>
     </members>
